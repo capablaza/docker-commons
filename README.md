@@ -17,11 +17,15 @@ docker volume ls
 
 #### Docker images commands
 docker images -a
+
 docker rmi [replace_with_image_name]
 
 
 #### Docker containers commands
 docker ps -a
+
 docker rm [replace_with_container_name]
+
 docker start [replace_with_container_name]
+
 docker stop [replace_with_container_name]
